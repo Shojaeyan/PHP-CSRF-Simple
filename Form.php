@@ -10,6 +10,6 @@ if(isset($_POST['token'])){
 ?>
 <form class="form-horizontal" role="form" name="myform" method="post">
 <input type="text" name="name">
-<button class="btn btn-primary " name="save" type="submit">Save</button>
+<button  name="save" type="submit">Save</button>
 <input type="hidden" value="<?=$_SESSION['tcode'];?>" name="tcode">
 </form>
